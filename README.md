@@ -1,3 +1,3 @@
 # Movie-Database-Java-React
  
-A MOvie Database APplication with rEact and Java
+A Movie Database Application with React and Java
