@@ -13,7 +13,6 @@ const Header = () => {
           <ul className="flex space-x-4">
             <li>
               <NavLink
-                exact
                 to="/"
                 className="text-white hover:text-gold transition duration-300"
               >
