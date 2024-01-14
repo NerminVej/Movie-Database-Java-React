@@ -1,13 +1,15 @@
 
 import { NavLink } from "react-router-dom";
+import { VideoCameraIcon } from "@heroicons/react/24/outline"
 
 const Header = () => {
   return (
     <header className="bg-gray-900 text-white">
       <div className="container mx-auto">
         <nav className="flex items-center justify-between p-4">
-          <a href="/" className="text-gold text-2xl">
-          </a>
+        <NavLink to="/" className="text-gold text-2xl flex items-center">
+            <VideoCameraIcon className="w-6 h-6 mr-2" /> Gold
+          </NavLink>
           <ul className="flex space-x-4">
             <li>
               <NavLink
