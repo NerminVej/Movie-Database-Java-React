@@ -8,7 +8,7 @@ const Header = () => {
       <div className="container mx-auto">
         <nav className="flex items-center justify-between p-4">
         <NavLink to="/" className="text-gold text-2xl flex items-center">
-            <VideoCameraIcon className="w-6 h-6 mr-2" /> Gold
+            <VideoCameraIcon className="w-6 h-6 mr-2" /> Movie Database
           </NavLink>
           <ul className="flex space-x-4">
             <li>
