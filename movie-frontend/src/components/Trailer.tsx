@@ -1,7 +1,8 @@
-import React from 'react'
 
 export const Trailer = () => {
   return (
-    <div>Trailer</div>
-  )
-}
+    <div className="bg-gray-900 min-h-screen flex items-center justify-center">
+        Trailer
+    </div>
+  );
+};
