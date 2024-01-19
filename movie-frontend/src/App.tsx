@@ -56,7 +56,6 @@ function App() {
     <Router>
       <Route path="/" element={<Header />}></Route>
       <Header />
-      <Hero />
       <Trailer />
       <Home />
     </Router>

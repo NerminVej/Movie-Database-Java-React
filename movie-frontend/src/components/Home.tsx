@@ -1,8 +1,10 @@
+import Hero from "./Hero"
 
-const Home = () => {
+const Home = ({movies}) => {
   return (
-    <div>Home</div>
+    <Hero movies = {movies} />
   )
 }
+
 
 export default Home
