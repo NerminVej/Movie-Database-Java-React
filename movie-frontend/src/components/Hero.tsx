@@ -2,7 +2,6 @@ import Carousel from 'react-material-ui-carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCirclePlay } from '@fortawesome/free-solid-svg-icons';
 import { Link, useNavigate } from 'react-router-dom';
-import Button from 'react-bootstrap/Button';
 
 const Hero = ({ movies }) => {
   const navigate = useNavigate();
@@ -47,12 +46,12 @@ const Hero = ({ movies }) => {
                         </div>
                       </Link>
                       <div className="movie-review-button-container">
-                        <Button
-                          variant="info"
+                      <button
+                          className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline-blue active:bg-blue-800"
                           onClick={() => reviews(movie.imdbId)}
                         >
                           Reviews
-                        </Button>
+                        </button>
                       </div>
                     </div>
                   </div>

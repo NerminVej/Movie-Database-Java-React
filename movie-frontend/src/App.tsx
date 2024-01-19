@@ -4,6 +4,7 @@ import { Route, BrowserRouter as Router } from "react-router-dom";
 import { Trailer } from "./components/Trailer";
 import Home from "./components/Home";
 import { useEffect, useState } from "react";
+import api from './api/axiosConfig';
 
 function App() {
   const [movies, setMovies] = useState();
